@@ -3,7 +3,7 @@ const nightmare = Nightmare({ show: true, });
 const fs = require('fs');
 
 const user_name = 'alvaroscelza@gmail.com';
-const password = 'godshand';
+const password = 'password';
 
 let photo = fs.readFileSync('Fotos/Test 1.png').toString();
 
